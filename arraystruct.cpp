@@ -27,3 +27,9 @@ int main() {
         cout << "Alamat Desa: " ;
         getline(cin, mhs[i].alamat.desa);
         cout << "Alamat Kota: " ;
+         getline(cin, mhs[i].alamat.kota);
+        cout << "Umur : ";
+        cin >> mhs[i].umur;
+        cout << endl;
+        cin.ignore();
+    }
