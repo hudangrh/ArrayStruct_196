@@ -40,10 +40,5 @@ int main() {
     }
     cout << endl;
 }
- struct orang
- {
-    string nama;
-    string alamat;
-    int umur;
- };
+ 
  

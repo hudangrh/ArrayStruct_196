@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+struct detailAlamat
+{
+    string desa;
+    string kecamatan;
+}
 struct orang
  {
     string nama;
@@ -8,17 +13,20 @@ struct orang
     int umur;
  };
 
- int main() {
+int main() {
     orang mhs;
     cout << "nama : " ;
     cin >> mhs.nama;
-    cout << "alamat : ";
-    cin >> mhs.alamat;
+    cout << "alamat desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "alamat kota : ";
+    cin >> mhs.alamat.kota;   
     cout << "umur : ";
     cin >> mhs.umur;
     cout << endl;
     //tampilkan
     cout << " nama :" << mhs.nama << endl;
-    cout << " alamat :" << mhs.alamat << endl;
+    cout << " desa :" << mhs.alamat.desa << endl;
+    cout << " kota :" << mhs.alamat.kota << endl;
     cout << " umur :" << mhs.umur << endl;
- }
+}
