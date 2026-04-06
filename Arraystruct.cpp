@@ -7,5 +7,20 @@ int main() {
     // deklrasi array tanpa inisialisasi
     int kamu[5];
     // tampilkan data
-    cout << "Data pada index 1 = ' << aku[1] << endl;
+    cout << "Data pada index 1 = " << aku[1] << endl;
+    // ganti index 1
+    aku[1] = 200
+    cout << endl;
+    cout << "data pada index 1 = " << aku[1] << endl;
+    // mengisi satu persatu
+    cout << "data index 0 = ";
+    cin >> kamu[0];
+    cout << "data index 1 = ";
+    cin >> kamu[1];
+    cout << "data index 2 = ";
+    cin >> kamu[2];
+    cout << "data index 3 = ";
+    cin >> kamu[3];
+    cout << "data index 4 = ";
+    cin >> kamu[4];
 }
