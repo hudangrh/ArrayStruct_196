@@ -39,7 +39,11 @@ int main() {
         cin >> kamu[i];
     }
     cout << endl;
-    
-
-
 }
+ struct orang
+ {
+    string nama;
+    string alamat;
+    int umur;
+ };
+ 
